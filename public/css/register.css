@@ -1,0 +1,135 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header-top-nav{
+    display: flex;
+    height: 95px;
+    justify-content: flex-start;
+}
+
+.copy-header{
+    display: none;
+}
+body{
+    
+    font-size: 12px;
+    margin: auto;
+    background-color:#ebebeb;
+    width: 100%;
+   
+    
+}
+.main-header{
+    background-color: #eac926;
+    
+    
+
+}
+.logo{
+ width: 50%;
+ margin-top: 11px;
+}
+    
+.main-navbar ul {
+    list-style: none;
+}
+.main-navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    font-size: 14px;
+}
+        
+        .main-navbar{
+    display: flex;
+    justify-content:space-between;
+}
+
+.main-navbar ul{
+    display: flex;
+    margin-left: -25px;
+    
+    
+}
+.main-navbar li{
+    margin-right:5px ;
+    
+    
+}
+@media (max-width:500px) {
+    .main-navbar{
+        display: none;
+    }
+    
+}
+    
+.create-form{
+    padding:30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: stretch;
+}
+.control-formulario{
+    margin-bottom: 15px;
+}
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+.control{
+    width: 100%;
+    padding: 8px 8px;
+}
+.boton-formulario{
+    background-color: #1259c3;
+    font-size: 14px;
+    color: white;
+    padding: 6px 0px;
+    border-radius: 5px;
+    width: 50%;
+    
+}
+.boton-azul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+form{
+    
+    width: 90%;
+    margin: auto;
+}
+.icono-azul{
+    color: #1259c3;
+}
+.checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+.cat{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+footer{
+    text-align: center;
+    padding-top:20px;
+    background-color: white;
+    margin:auto
+}
+button:hover{
+    background-color:#0022AA;
+    transition:800ms;
+    }
+
+    

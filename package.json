@@ -1,0 +1,13 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node source/app.js",
+  "scripts": {
+    "test": "node source/app.js",
+    "start": "node source/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

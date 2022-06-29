@@ -1,0 +1,79 @@
+
+    
+    @media (max-width:500px) {
+.articulo:hover {
+  box-shadow: none;
+}
+.articulo .producto{
+  display: block;
+}
+
+      .cuatro-productos{
+  display: block;
+}
+.otros-cuatro-productos{
+  display: block;
+}
+.compra-en-cuotas{
+  display:none
+}
+   .burger-oculto{
+      display: block;
+   }
+   .burger-menu{
+    display: block;
+   }
+  
+   
+   .main-navbar{
+      display: none;
+   
+  }
+  
+     .lupa{
+        
+           border: 1px solid black;
+           padding: 6px;
+           margin-top: 0px;
+           margin-right: -1px;
+           margin-left: -1px;
+           height: 28px;
+           border-radius: 5px;
+           position: absolute;
+           right: 9px;
+       
+     }
+     .fa-truck {
+        margin-top: 5px;
+        border: 1px solid #39b54a;
+        border-radius: 100%;
+        padding: 8px;
+        margin-bottom: -2vh;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        background-color: white;
+    }
+    .truck{
+      position:relative
+    }
+    .lupa-nave{
+      width:45%
+    }
+    .logo{
+      width:50%;
+    }
+    .navegacion-arriba{
+      display:flex;
+      width:25%;
+      margin-top:10px;
+      margin-right:15px
+    }
+    .main-header-top-nav{
+      width: 100%;
+      
+
+    }
+    
+    
+  }
